@@ -1,0 +1,3 @@
+project(palindrome_number)
+
+add_executable(palindrome_number palindrome_number.c)
