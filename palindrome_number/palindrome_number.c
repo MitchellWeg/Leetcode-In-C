@@ -2,6 +2,8 @@
 #include <stdbool.h>
 #include <string.h>
 
+#include "palindrome_number.h"
+
 char *strrev(char *s)
 {
     if (s && *s) {
@@ -25,14 +27,4 @@ bool is_palindrome(int x) {
 
   
   return !strcmp(str, rev);
-}
-
-
-int main() {
-  bool x = is_palindrome(121);
-  bool y = is_palindrome(123123);
-  
-  printf("%d", y);
-
-  return 0;
 }

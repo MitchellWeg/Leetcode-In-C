@@ -3,3 +3,5 @@ CMakeCache.txt
 **/*.cmake
 **/Makefile
 **/build
+**/Testing
+**/*.a

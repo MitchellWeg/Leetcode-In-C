@@ -2,6 +2,8 @@
 #include <string.h>
 #include <assert.h>
 
+#include "roman.h"
+
 typedef enum Values {
    I = 1,
    V = 5,
@@ -61,9 +63,3 @@ int romanToInt(char* s) {
     return acc;
 }
 
-int main() {
-    assert(romanToInt("III") == 3);
-    assert(romanToInt("LVIII") == 58);
-    assert(romanToInt("MCMXCIV") == 1994);
-    return 0;
-}
